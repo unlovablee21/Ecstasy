@@ -127,4 +127,4 @@ getgenv().Align = {
         };
     };
 
-lloadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/559229339cb5806c987f331679cd801e.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/559229339cb5806c987f331679cd801e.lua"))()
