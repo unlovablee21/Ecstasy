@@ -20,7 +20,7 @@ getgenv().Align = {
     };
 
     ['Trigger Bot'] = {
-        ['Settings'] = {['Enabled'] = fale, ['Notification'] = false, ['Delay'] = 0.065};
+        ['Settings'] = {['Enabled'] = false, ['Notification'] = false, ['Delay'] = 0.065};
         ['Keybind']  = {['Enabled'] = true, ['Key'] = 't'}
     };
 
