@@ -1,6 +1,6 @@
 script_key="KEY HERE";
 
-getgenv().Align = {
+getgenv().Ecstasy = {
     ['Silent Aim'] = {
         ['Settings']    = {['Enabled'] = true, ['Hit Chance'] = 100};
         ['Keybind']     = {['Enabled'] = false, ['Key'] = 'p', ['Notification'] = true};
@@ -127,4 +127,4 @@ getgenv().Align = {
         };
     };
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/559229339cb5806c987f331679cd801e.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d00107f46282da9e4d44759d5d374b6d.lua"))()
