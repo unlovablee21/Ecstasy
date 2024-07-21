@@ -1,0 +1,30 @@
+script_key="KEY HERE";
+
+getgenv().Ecstasy = {
+    ["Silent"] = {
+        ["Keybind"] = Enum.KeyCode.C,
+        ["Prediction"] = 0.116,
+    },
+
+    ["Camlock"] = {
+        ["Prediction2"] = 0.2,
+        ["Smoothing"] = 0.1,
+    },
+
+    ["HitParts"] = {
+        ["OnePart"] = true,
+        ["Part"] = "HumanoidRootPart",
+
+        ["MultipleParts"] = false,
+        ["Parts"] = {"Head","UpperTorso","HumanoidRootPart"},
+    },
+
+    ["Checks"] = {
+        ["UnlockonDeath"] = true,
+        ["KnockCheck"] = true,
+        ["NoGroundShots"] = false,
+        ["WallCheck"] = true,
+    },
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/beafc92b2bc6ff14a482dfe31a69ea6c.lua"))()
