@@ -3,7 +3,7 @@ script_key="KEY HERE";
 getgenv().Ecstasy = {
     ["Silent"] = {
         ["Keybind"] = "C",
-        ["Prediction"] = 0.116,
+        ["Prediction"] = 0.117,
     },
 
     ["Camlock"] = {
