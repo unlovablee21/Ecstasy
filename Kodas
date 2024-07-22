@@ -2,21 +2,31 @@ script_key="KEY HERE";
 
 getgenv().Ecstasy = {
     ["Silent"] = {
-        ["Keybind"] = Enum.KeyCode.C,
+        ["Keybind"] = "C",
         ["Prediction"] = 0.116,
     },
 
     ["Camlock"] = {
-        ["Prediction2"] = 0.2,
+        ["Prediction2"] = 0.3,
         ["Smoothing"] = 0.1,
+        ["EasingStyles"] = {
+            ["Style"] = "Linear",
+            ["Direction"] = "InOut",
+        },
+
+        ["Shake"] = {
+            ["X"] = "0",
+            ["Y"] = "0",
+            ["Z"] = "0"
+        }
     },
 
     ["HitParts"] = {
         ["OnePart"] = true,
         ["Part"] = "HumanoidRootPart",
 
-        ["MultipleParts"] = false,
-        ["Parts"] = {"Head","UpperTorso","HumanoidRootPart"},
+        ["EnableAirPart"] = false,
+        ["AirPart"] = "UpperTorso",
     },
 
     ["Checks"] = {
